@@ -15,7 +15,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 17.x
-      - run: npm install
+      - run: cd FE & npm install
 
   Deploy:
     runs-on: ubuntu-latest
